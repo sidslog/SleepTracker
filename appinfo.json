@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "sidslog@gmail.com",
+    "longName": "Sleep Tracker",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "Sleep Tracker",
+    "uuid": "147e9f46-565a-4ec7-8027-79aa30e3634e",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
