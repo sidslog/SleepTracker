@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B23EDBE19C5C1660041457D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B23EDBB19C5C1660041457D /* main.c */; };
+		3B23EDBF19C5C1660041457D /* run.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B23EDBC19C5C1660041457D /* run.c */; };
+		3B23EDC319C5C4020041457D /* persist.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B23EDC119C5C4020041457D /* persist.c */; };
+		3B23EDC919C5C9200041457D /* value_holder.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B23EDC719C5C9200041457D /* value_holder.c */; };
+		3B23EDCC19C600DC0041457D /* pedometer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B23EDCA19C600DC0041457D /* pedometer.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B23EDAF19C5C12F0041457D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B23EDB119C5C12F0041457D /* SleepTrackerPebble */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SleepTrackerPebble; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B23EDBB19C5C1660041457D /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../src/main.c; sourceTree = "<group>"; };
+		3B23EDBC19C5C1660041457D /* run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = run.c; path = ../../src/run.c; sourceTree = "<group>"; };
+		3B23EDBD19C5C1660041457D /* run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = run.h; path = ../../src/run.h; sourceTree = "<group>"; };
+		3B23EDC119C5C4020041457D /* persist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = persist.c; path = ../../src/persist.c; sourceTree = "<group>"; };
+		3B23EDC219C5C4020041457D /* persist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = persist.h; path = ../../src/persist.h; sourceTree = "<group>"; };
+		3B23EDC719C5C9200041457D /* value_holder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = value_holder.c; path = ../../src/value_holder.c; sourceTree = "<group>"; };
+		3B23EDC819C5C9200041457D /* value_holder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = value_holder.h; path = ../../src/value_holder.h; sourceTree = "<group>"; };
+		3B23EDCA19C600DC0041457D /* pedometer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pedometer.c; path = ../../src/pedometer.c; sourceTree = "<group>"; };
+		3B23EDCB19C600DC0041457D /* pedometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pedometer.h; path = ../../src/pedometer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B23EDAE19C5C12F0041457D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B23EDA819C5C12F0041457D = {
+			isa = PBXGroup;
+			children = (
+				3B23EDB319C5C12F0041457D /* SleepTrackerPebble */,
+				3B23EDB219C5C12F0041457D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B23EDB219C5C12F0041457D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B23EDB119C5C12F0041457D /* SleepTrackerPebble */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B23EDB319C5C12F0041457D /* SleepTrackerPebble */ = {
+			isa = PBXGroup;
+			children = (
+				3B23EDBB19C5C1660041457D /* main.c */,
+				3B23EDBC19C5C1660041457D /* run.c */,
+				3B23EDBD19C5C1660041457D /* run.h */,
+				3B23EDC119C5C4020041457D /* persist.c */,
+				3B23EDC219C5C4020041457D /* persist.h */,
+				3B23EDC719C5C9200041457D /* value_holder.c */,
+				3B23EDC819C5C9200041457D /* value_holder.h */,
+				3B23EDCA19C600DC0041457D /* pedometer.c */,
+				3B23EDCB19C600DC0041457D /* pedometer.h */,
+			);
+			path = SleepTrackerPebble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B23EDB019C5C12F0041457D /* SleepTrackerPebble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B23EDB819C5C12F0041457D /* Build configuration list for PBXNativeTarget "SleepTrackerPebble" */;
+			buildPhases = (
+				3B23EDAD19C5C12F0041457D /* Sources */,
+				3B23EDAE19C5C12F0041457D /* Frameworks */,
+				3B23EDAF19C5C12F0041457D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepTrackerPebble;
+			productName = SleepTrackerPebble;
+			productReference = 3B23EDB119C5C12F0041457D /* SleepTrackerPebble */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B23EDA919C5C12F0041457D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sidslog;
+				TargetAttributes = {
+					3B23EDB019C5C12F0041457D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 3B23EDAC19C5C12F0041457D /* Build configuration list for PBXProject "SleepTrackerPebble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B23EDA819C5C12F0041457D;
+			productRefGroup = 3B23EDB219C5C12F0041457D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B23EDB019C5C12F0041457D /* SleepTrackerPebble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B23EDAD19C5C12F0041457D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B23EDBE19C5C1660041457D /* main.c in Sources */,
+				3B23EDC919C5C9200041457D /* value_holder.c in Sources */,
+				3B23EDCC19C600DC0041457D /* pedometer.c in Sources */,
+				3B23EDBF19C5C1660041457D /* run.c in Sources */,
+				3B23EDC319C5C4020041457D /* persist.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B23EDB619C5C12F0041457D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3B23EDB719C5C12F0041457D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B23EDB919C5C12F0041457D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../PebbleLocalSim/include",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B23EDBA19C5C12F0041457D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../PebbleLocalSim/include",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B23EDAC19C5C12F0041457D /* Build configuration list for PBXProject "SleepTrackerPebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B23EDB619C5C12F0041457D /* Debug */,
+				3B23EDB719C5C12F0041457D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B23EDB819C5C12F0041457D /* Build configuration list for PBXNativeTarget "SleepTrackerPebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B23EDB919C5C12F0041457D /* Debug */,
+				3B23EDBA19C5C12F0041457D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B23EDA919C5C12F0041457D /* Project object */;
+}
