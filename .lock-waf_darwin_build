@@ -1,0 +1,8 @@
+argv = ['/Users/sidslog/pebble-dev/PebbleSDK-2.4.1/Pebble/waf', 'configure', 'build']
+environ = {'TERM_SESSION_ID': '7B55385B-56A7-4206-AB5B-5F34A0D957FD', 'SSH_AUTH_SOCK': '/tmp/launch-4SoAFN/Listeners', 'PYTHONPATH': '/Users/sidslog/pebble-dev/PebbleSDK-current/bin/../.env/lib/python2.7/site-packages', 'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'LC_CTYPE': 'UTF-8', 'TERM_PROGRAM_VERSION': '326', 'SHELL': '/bin/bash', 'LOGNAME': 'sidslog', 'USER': 'sidslog', 'HOME': '/Users/sidslog', 'PATH': '/Users/sidslog/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin:/Users/sidslog/pebble-dev/PebbleSDK-current/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin', 'TMPDIR': '/var/folders/4_/f2jhzlr96gv54v90tvyb0jcm0000gp/T/', 'TERM_PROGRAM': 'Apple_Terminal', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/tmp/launch-IqAQA9/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '2', 'SECURITYSESSIONID': '186a5', '__CF_USER_TEXT_ENCODING': '0x1F6:0:0', 'PWD': '/Users/sidslog/Documents/projects/pebble/SleepTracker', '_': '/Users/sidslog/pebble-dev/PebbleSDK-2.4.1/Pebble/waf', '__CHECKFIX1436934': '1'}
+files = ['/Users/sidslog/Documents/projects/pebble/SleepTracker/wscript']
+hash = 7057928703442474663
+options = {'files': '', 'jobs': 8, 'verbose': 0, 'nocache': False, 'progress_bar': 0, 'timestamp': None, 'distcheck_args': None, 'top': '', 'destdir': '', 'keep': 0, 'zones': '', 'debug': False, 'prefix': '/usr/local/', 'download': False, 'force': False, 'targets': '', 'out': ''}
+out_dir = '/Users/sidslog/Documents/projects/pebble/SleepTracker/build'
+run_dir = '/Users/sidslog/Documents/projects/pebble/SleepTracker'
+top_dir = '/Users/sidslog/Documents/projects/pebble/SleepTracker'
