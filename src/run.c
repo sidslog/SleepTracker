@@ -195,7 +195,7 @@ void settings_load(Window *window) {
 
 void settings_unload(Window *window) {
     app_log(APP_LOG_LEVEL_DEBUG, __FILE__, __LINE__, "settings_unload");
-    layer_destroy(window_get_root_layer(menu_window));
+//    layer_destroy(window_get_root_layer(menu_window));
     simple_menu_layer_destroy(pedometer_settings);
     window_destroy(menu_window);
 }
