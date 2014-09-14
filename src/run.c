@@ -182,6 +182,7 @@ void setup_menu_window() {
 }
 
 void settings_load(Window *window) {
+    app_log(APP_LOG_LEVEL_DEBUG, __FILE__, __LINE__, "settings_load");
     Layer *layer = window_get_root_layer(menu_window);
     statusBar = gbitmap_create_with_resource(RESOURCE_ID_STATUS_BAR);
     
@@ -193,6 +194,7 @@ void settings_load(Window *window) {
 }
 
 void settings_unload(Window *window) {
+    app_log(APP_LOG_LEVEL_DEBUG, __FILE__, __LINE__, "settings_unload");
     layer_destroy(window_get_root_layer(menu_window));
     simple_menu_layer_destroy(pedometer_settings);
     window_destroy(menu_window);
@@ -301,6 +303,7 @@ void handle_init(void) {
 }
 
 void handle_deinit(void) {
+    app_log(APP_LOG_LEVEL_DEBUG, __FILE__, __LINE__, "handle_deinit");
 	accel_data_service_unsubscribe();
 // 	window_destroy(menu_window);
 }
