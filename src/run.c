@@ -302,5 +302,5 @@ void handle_init(void) {
 
 void handle_deinit(void) {
 	accel_data_service_unsubscribe();
-	window_destroy(menu_window);
+// 	window_destroy(menu_window);
 }
